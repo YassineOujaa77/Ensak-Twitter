@@ -43,7 +43,7 @@ else{
     $result = mysqli_query($link,$reque) or die("query failed");
 
 
-    $query = "SELECT id_user FROM user WHERE email='$email' ";
+    $query = "SELECT id_user FROM user ORDER BY id_user DESC LIMIT 1 ";
     $res = mysqli_query($link,$query) or die("query failed");
     $row = mysqli_fetch_assoc($res);
     if($row){
