@@ -22,12 +22,7 @@
 	<?php include('Search.php') ?>
 	<ul class="ul">
 	<li class="list-group-item list-group-item-secondary"><a class=" set" href="name.php">Change your name.</a> </li>
-	<li class="list-group-item list-group-item-secondary"><a class=" set" href="password.php">Change your password.</a></li>
-	<li class="list-group-item list-group-item-secondary"><a class=" set" href="picture.php">Change your profil picture.</a></li>
-	<li class="list-group-item list-group-item-secondary"><a class=" set" href="deletepic.php">Delete your profile picture.</a></li>
-	<li class="list-group-item list-group-item-secondary"><a class=" set" href="inter.php">Change your interests.</a></li>
-	<li class="list-group-item list-group-item-secondary"><a class=" set" href="birth.php">Change your birthday.</a></li>
-	<li class="list-group-item list-group-item-secondary"><a class=" set" href="desc.php">Change your description.</a></li>
+	
 
 
 	</ul>
