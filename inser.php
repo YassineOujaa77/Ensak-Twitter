@@ -4,11 +4,11 @@ session_start();
 if(isset($_POST['Suivant'])){
     
         $_SESSION["description"]=$_POST['description'];    
-        header('Location: sugg.php');
+        header('location:sugg.php');
 }
 
 else{
-    header('Location: signin.php');
+    header('location:signin.php');
     exit;
 }
 
